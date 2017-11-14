@@ -1,6 +1,6 @@
 # Shopcheckout
 
-This project has been used to test developer's knowledge around Laravel. It servers as a shop checkout system around three compoments user, product and transaction. 
+This project has been used to test developer's knowledge around Laravel. It serves as a shop checkout system around three components user, product and transaction. 
 
 ## Basic requirements:
 
@@ -10,8 +10,8 @@ This project has been used to test developer's knowledge around Laravel. It serv
     Couple of basic unit tests
     At least a single controller test
     Include a readme.md on how to setup the project
-    Inlcude an improvements.md on what you could do better if you had more time
-    Upload the project to github and email us a link to your solution/github page
+    Include an improvements.md on what you could do better if you had more time
+    Upload the project to GitHub and email us a link to your solution/GitHub page
 
 ## Checkout system requirements:
 
@@ -33,7 +33,7 @@ This project has been used to test developer's knowledge around Laravel. It serv
 
 # Deploy
 
-The project is writtern in PHP. To checkout, deploy and run the project you will need to install [git], [docker] and [MySQL]. Default database content has been provided as default.sql (contains all required fruits, apple orange with the correct price), otherwise, manually initial the testing data through running factory from artisan tinker.
+The project is written in PHP. To checkout, deploy and run the project you will need to install [git], [docker] and [MySQL]. Default database content has been provided as default.sql (contains all required fruits, apple orange with the correct price), otherwise, manually initial the testing data through running factory from artisan tinker.
 
 ## Checkout
 
@@ -43,9 +43,9 @@ Checkout the project:
     git clone https://github.com/Alvin1234567/Laravel-shopcheckout
 ```
 
-## Database prepartion
+## Database preparation
 
-Create a database with name "laravel_shopcheckout" and "laravel_shopcheckout_test" , get the database IP and PORT for later .env file change.
+Create a database with name "laravel_shopcheckout" and "laravel_shopcheckout_test”, get the database IP and PORT for later .env file change.
 
 ## Deploy
 
@@ -56,12 +56,12 @@ Run the following to deploy the project:
     docker run -p 7088:80 -d checkout
 ```
 
-Check the current running contrainer:
+Check the current running container:
 ```bash
     docker ps -a
 ```
 
-Access the proejct container throught "CONTAINER ID":
+Access the project container through "CONTAINER ID":
 ```bash
     docker exec -it {CONTAINER ID} bash
 ```
@@ -102,7 +102,7 @@ Generate testing data through running factory from artisan tinker:
     exit
 ```
 
-Exit the contrainer:
+Exit the container:
 ```bash
     exit
 ```
